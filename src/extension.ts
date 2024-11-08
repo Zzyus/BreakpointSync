@@ -126,7 +126,7 @@ export function activate(context: vscode.ExtensionContext) {
                 vscode.window.showErrorMessage('Error loading breakpoints: ' + err);
             }
         } else {
-            vscode.window.showErrorMessage('No workspace folder found.');
+            console.log('No workspace folder found.');
         }
     }
 
